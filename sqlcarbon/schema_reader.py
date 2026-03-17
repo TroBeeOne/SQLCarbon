@@ -141,8 +141,8 @@ def read_schema(
                  ELSE NULL
             END                                                  AS datetime_precision,
             c.is_identity,
-            ic.seed_value,
-            ic.increment_value,
+            CAST(ic.seed_value AS bigint),
+            CAST(ic.increment_value AS bigint),
             c.is_computed
         FROM sys.columns c
         JOIN sys.types tp

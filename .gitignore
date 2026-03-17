@@ -26,6 +26,9 @@ sqlcarbon_*.log
 # Exception: keep the sample if you add one to the repo
 !sample_plan.yaml
 
+# Claude Code
+.claude/
+
 # IDE
 .vscode/
 .idea/

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sqlcarbon"
-version = "0.2.0"
+version = "0.2.1"
 description = "Reliable, deterministic SQL Server table-to-table copy tool"
 readme = "README.md"
 license = { text = "MIT" }
